@@ -1,0 +1,11 @@
+.rvmrc
+*.swp
+*.swo
+
+# *Something* has to work to ignore rubymine...
+.idea/
+.idea/*.xml
+.idea/*/
+/.idea/
+/.idea/*.xml
+/.idea/*/
