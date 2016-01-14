@@ -4,7 +4,7 @@ require 'optparse'
 
 def print_hash_list(hl, prefix = '')
   str = "#{prefix}[\n"
-  hl.each{|h| str += "#{prefix}  #{h}\n"}
+  hl.each{|h| str += "#{prefix}  #{h},\n"}
   str += "#{prefix}]"
 
   return str
